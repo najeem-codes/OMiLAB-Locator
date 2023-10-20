@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8f5c59227799b157d30757371c24a844 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8f5c59227799b157d30757371c24a844" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8f5c59227799b157d30757371c24a844 = L.map(
+                "map_8f5c59227799b157d30757371c24a844",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e98866e50ae90ae30d093c3a7abdd86 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+            var marker_d77116e97d8ac526dcba08222fc1e7c1 = L.marker(
+                [48.2083537, 16.3725042],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_bcb6c1259bd9741170cbdb1b80cd4c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2af4e1cc069bab5982d0419946f2a891 = $(`<div id="html_2af4e1cc069bab5982d0419946f2a891" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Vienna</b><br>Location: Vienna, Austria<br>Description: Meta-modeling, semantic technologies, hybrid method engineering, and intelligent and agile agents<br>Year: 2011</div>`)[0];
+                popup_bcb6c1259bd9741170cbdb1b80cd4c4e.setContent(html_2af4e1cc069bab5982d0419946f2a891);
+            
+        
+
+        marker_d77116e97d8ac526dcba08222fc1e7c1.bindPopup(popup_bcb6c1259bd9741170cbdb1b80cd4c4e)
+        ;
+
+        
+    
+    
+            var marker_019560ea688db4f4c7b6d9928d1817c6 = L.marker(
+                [35.8237631, 127.1472805],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_ab6769ed013038c1347b854fa2efbd31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc2bf1e4aabbdfb1cf8f681534693da = $(`<div id="html_5dc2bf1e4aabbdfb1cf8f681534693da" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@JeonBuk National University</b><br>Location: Jeonju, South Korea<br>Description: Formal methods of IoT application<br>Year: 2015</div>`)[0];
+                popup_ab6769ed013038c1347b854fa2efbd31.setContent(html_5dc2bf1e4aabbdfb1cf8f681534693da);
+            
+        
+
+        marker_019560ea688db4f4c7b6d9928d1817c6.bindPopup(popup_ab6769ed013038c1347b854fa2efbd31)
+        ;
+
+        
+    
+    
+            var marker_a310e5823cbfbab67de27bf8dff3c036 = L.marker(
+                [48.2083537, 16.3725042],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_9516b8fb17257e396d01e37513f4c7e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf88e72b3969e0de48c4add280996f99 = $(`<div id="html_cf88e72b3969e0de48c4add280996f99" style="width: 100.0%; height: 100.0%;"><b>BOC Austria/Vienna</b><br>Location: Vienna, Austria<br>Description: Industrial digital innovation environment<br>Year: 2018</div>`)[0];
+                popup_9516b8fb17257e396d01e37513f4c7e6.setContent(html_cf88e72b3969e0de48c4add280996f99);
+            
+        
+
+        marker_a310e5823cbfbab67de27bf8dff3c036.bindPopup(popup_9516b8fb17257e396d01e37513f4c7e6)
+        ;
+
+        
+    
+    
+            var marker_b6f23d59d964df336d673f7575fac4d6 = L.marker(
+                [45.7973912, 24.1519202],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_5ec78b5e8d8bdebb4c94010320613601 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b849f0da1263bb56a2ade39df9e34f67 = $(`<div id="html_b849f0da1263bb56a2ade39df9e34f67" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@Lucian Blaga University of Sibiu</b><br>Location: Sibiu, Romania<br>Description: Embedded systems, smart city domain, and manufacturing systems and processes<br>Year: 2019</div>`)[0];
+                popup_5ec78b5e8d8bdebb4c94010320613601.setContent(html_b849f0da1263bb56a2ade39df9e34f67);
+            
+        
+
+        marker_b6f23d59d964df336d673f7575fac4d6.bindPopup(popup_5ec78b5e8d8bdebb4c94010320613601)
+        ;
+
+        
+    
+    
+            var marker_4dc1481df68b1e24813a16d2f1418cd3 = L.marker(
+                [45.756655699999996, 9.754219200862249],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_69fc62878db372430453a394a1e8a48d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99e5cc199798948701a504e3ca9274f = $(`<div id="html_e99e5cc199798948701a504e3ca9274f" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Bergamo</b><br>Location: Bergamo, Italy<br>Description: Service and manufacturing operations management<br>Year: 2019</div>`)[0];
+                popup_69fc62878db372430453a394a1e8a48d.setContent(html_e99e5cc199798948701a504e3ca9274f);
+            
+        
+
+        marker_4dc1481df68b1e24813a16d2f1418cd3.bindPopup(popup_69fc62878db372430453a394a1e8a48d)
+        ;
+
+        
+    
+    
+            var marker_be5bae15d7cd6e8d532ac74418ef908e = L.marker(
+                [45.4401467, 4.3873058],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_ab092b0bf172368753c3115a0bf76665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de4787840ced2263bc5e84ca061617d7 = $(`<div id="html_de4787840ced2263bc5e84ca061617d7" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@Mines Saint-Etienne</b><br>Location: Saint-Etienne, France<br>Description: Industrial business model transformation<br>Year: 2020</div>`)[0];
+                popup_ab092b0bf172368753c3115a0bf76665.setContent(html_de4787840ced2263bc5e84ca061617d7);
+            
+        
+
+        marker_be5bae15d7cd6e8d532ac74418ef908e.bindPopup(popup_ab092b0bf172368753c3115a0bf76665)
+        ;
+
+        
+    
+    
+            var marker_b45e4d39b83c27630021b093aa889da3 = L.marker(
+                [53.132398, 23.1591679],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_121ab26901bdf597e876a72e9d1d639d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39ec5f243a4655b21f67d563414cffd3 = $(`<div id="html_39ec5f243a4655b21f67d563414cffd3" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@Bialystok University of Technology</b><br>Location: Bialystok, Poland<br>Description: Process management<br>Year: 2020</div>`)[0];
+                popup_121ab26901bdf597e876a72e9d1d639d.setContent(html_39ec5f243a4655b21f67d563414cffd3);
+            
+        
+
+        marker_b45e4d39b83c27630021b093aa889da3.bindPopup(popup_121ab26901bdf597e876a72e9d1d639d)
+        ;
+
+        
+    
+    
+            var marker_d593af6030e596db1910576336bed70c = L.marker(
+                [65.0118734, 25.4716809],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_b1ce2d4100360b4573e2aba9da623c43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e321b5eb31407c7a81759c55cb2faeab = $(`<div id="html_e321b5eb31407c7a81759c55cb2faeab" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Oulu</b><br>Location: Oulu, Finland<br>Description: Robotic applications<br>Year: 2020</div>`)[0];
+                popup_b1ce2d4100360b4573e2aba9da623c43.setContent(html_e321b5eb31407c7a81759c55cb2faeab);
+            
+        
+
+        marker_d593af6030e596db1910576336bed70c.bindPopup(popup_b1ce2d4100360b4573e2aba9da623c43)
+        ;
+
+        
+    
+    
+            var marker_4e1096c1ad4002300d0fac1e875873cf = L.marker(
+                [47.4793472, 8.2179918],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_c30aeebc8feb8b350bf347e0cbc4ed3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8314f3b72f96d153f21c96bda70d80b4 = $(`<div id="html_8314f3b72f96d153f21c96bda70d80b4" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Applied Sciences and Arts Northwestern Switzerland</b><br>Location: Windisch, Switzerland<br>Description: Ontology-based cyber-physical systems<br>Year: 2020</div>`)[0];
+                popup_c30aeebc8feb8b350bf347e0cbc4ed3d.setContent(html_8314f3b72f96d153f21c96bda70d80b4);
+            
+        
+
+        marker_4e1096c1ad4002300d0fac1e875873cf.bindPopup(popup_c30aeebc8feb8b350bf347e0cbc4ed3d)
+        ;
+
+        
+    
+    
+            var marker_b628cccf4d20e71038c5a036544957f0 = L.marker(
+                [52.5170365, 13.3888599],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_90add8e8f4c3e496927fc233af0a76ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_888b1c73eadf27cb9b20ddfce0bd13fb = $(`<div id="html_888b1c73eadf27cb9b20ddfce0bd13fb" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@BOC Germany/Berlin</b><br>Location: Berlin, Germany<br>Description: Industrial digital innovation environment<br>Year: 2020</div>`)[0];
+                popup_90add8e8f4c3e496927fc233af0a76ef.setContent(html_888b1c73eadf27cb9b20ddfce0bd13fb);
+            
+        
+
+        marker_b628cccf4d20e71038c5a036544957f0.bindPopup(popup_90add8e8f4c3e496927fc233af0a76ef)
+        ;
+
+        
+    
+    
+            var marker_8918669d2a88ab333467e24d096beb46 = L.marker(
+                [43.1357641, 13.0683092],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_a7b5c10dfee8b94841199db4d6d3b39b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd92f6c156622215f3d76f319f47fe41 = $(`<div id="html_cd92f6c156622215f3d76f319f47fe41" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Camerino</b><br>Location: Camerino, Italy<br>Description: Model-driven engineering approaches for IoT<br>Year: 2021</div>`)[0];
+                popup_a7b5c10dfee8b94841199db4d6d3b39b.setContent(html_cd92f6c156622215f3d76f319f47fe41);
+            
+        
+
+        marker_8918669d2a88ab333467e24d096beb46.bindPopup(popup_a7b5c10dfee8b94841199db4d6d3b39b)
+        ;
+
+        
+    
+    
+            var marker_1f46efef287b73e16a1c220fab504979 = L.marker(
+                [47.1663397, 9.510312],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_6398471926c33a40d60e2b28c3bb85db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76fbf4953b0488ccb258224c1b64ec67 = $(`<div id="html_76fbf4953b0488ccb258224c1b64ec67" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@HILTI</b><br>Location: Schaan, Liechtenstein<br>Description: Digital products and services<br>Year: 2021</div>`)[0];
+                popup_6398471926c33a40d60e2b28c3bb85db.setContent(html_76fbf4953b0488ccb258224c1b64ec67);
+            
+        
+
+        marker_1f46efef287b73e16a1c220fab504979.bindPopup(popup_6398471926c33a40d60e2b28c3bb85db)
+        ;
+
+        
+    
+    
+            var marker_b9f7e80020cc2e6348b65599189af2f7 = L.marker(
+                [52.2319581, 21.0067249],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_a007ac4a910d6e3afd9081509504dd32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e41e7e49bf3e11413455c2fd32240b8f = $(`<div id="html_e41e7e49bf3e11413455c2fd32240b8f" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@BOC Poland/Warsaw</b><br>Location: Warsaw, Poland<br>Description: Industrial digital innovation environment<br>Year: 2021</div>`)[0];
+                popup_a007ac4a910d6e3afd9081509504dd32.setContent(html_e41e7e49bf3e11413455c2fd32240b8f);
+            
+        
+
+        marker_b9f7e80020cc2e6348b65599189af2f7.bindPopup(popup_a007ac4a910d6e3afd9081509504dd32)
+        ;
+
+        
+    
+    
+            var marker_59a59e6e1866ff382d2cd6c9a9d856eb = L.marker(
+                [47.8454821, 16.5249288],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_7e88c13957e9fa09e454a64100b20cc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b0a1a10d1363b1a65b7b794d7bbd99 = $(`<div id="html_81b0a1a10d1363b1a65b7b794d7bbd99" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@Forschung Burgenland / Fachhochschule Burgenland</b><br>Location: Eisenstadt, Austria<br>Description: Digitalization research projects<br>Year: 2021</div>`)[0];
+                popup_7e88c13957e9fa09e454a64100b20cc0.setContent(html_81b0a1a10d1363b1a65b7b794d7bbd99);
+            
+        
+
+        marker_59a59e6e1866ff382d2cd6c9a9d856eb.bindPopup(popup_7e88c13957e9fa09e454a64100b20cc0)
+        ;
+
+        
+    
+    
+            var marker_000eca4c97ef38bf6192ee3744db7876 = L.marker(
+                [46.8055656, 7.1612669],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_ae9213e9e2c4567fe6499100478b842c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dad9d58062fb15d2e10566317e0e8e31 = $(`<div id="html_dad9d58062fb15d2e10566317e0e8e31" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Fribourg</b><br>Location: Fribourg, Switzerland<br>Description: Integration of physical and virtual environments, conceptual modeling, and robotics<br>Year: 2022</div>`)[0];
+                popup_ae9213e9e2c4567fe6499100478b842c.setContent(html_dad9d58062fb15d2e10566317e0e8e31);
+            
+        
+
+        marker_000eca4c97ef38bf6192ee3744db7876.bindPopup(popup_ae9213e9e2c4567fe6499100478b842c)
+        ;
+
+        
+    
+    
+            var marker_61ca1375de61fbccf9861c83b902ca91 = L.marker(
+                [46.769379, 23.5899542],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_634bfe2050b956f56373d35358e8c598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d76a2208f4eee11ffa75e1c707251265 = $(`<div id="html_d76a2208f4eee11ffa75e1c707251265" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@UBB FSEGA</b><br>Location: Cluj-Napoca, Romania<br>Description: Knowledge graphs for digital innovation and process automation<br>Year: 2022</div>`)[0];
+                popup_634bfe2050b956f56373d35358e8c598.setContent(html_d76a2208f4eee11ffa75e1c707251265);
+            
+        
+
+        marker_61ca1375de61fbccf9861c83b902ca91.bindPopup(popup_634bfe2050b956f56373d35358e8c598)
+        ;
+
+        
+    
+    
+            var marker_71e8809a5d2d051b7ee51402ca6bfca9 = L.marker(
+                [47.0708678, 15.4382786],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_e937e8f51502ae422bc79ff75bfa5434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b01e06fd16826dbce0d18cc83d6d1c = $(`<div id="html_33b01e06fd16826dbce0d18cc83d6d1c" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@Joanneum Research</b><br>Location: Graz, Austria<br>Description: AI/Optimization research areas<br>Year: 2022</div>`)[0];
+                popup_e937e8f51502ae422bc79ff75bfa5434.setContent(html_33b01e06fd16826dbce0d18cc83d6d1c);
+            
+        
+
+        marker_71e8809a5d2d051b7ee51402ca6bfca9.bindPopup(popup_e937e8f51502ae422bc79ff75bfa5434)
+        ;
+
+        
+    
+    
+            var marker_773ddaa19bf04b917952a20778940eab = L.marker(
+                [46.2017559, 6.1466014],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_10f008342317e41c05751dec33b6d794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61c45aca1c852c910c68ee08fc91c59a = $(`<div id="html_61c45aca1c852c910c68ee08fc91c59a" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@UNOG</b><br>Location: Geneva, Switzerland<br>Description: New node (details pending)<br>Year: 2023</div>`)[0];
+                popup_10f008342317e41c05751dec33b6d794.setContent(html_61c45aca1c852c910c68ee08fc91c59a);
+            
+        
+
+        marker_773ddaa19bf04b917952a20778940eab.bindPopup(popup_10f008342317e41c05751dec33b6d794)
+        ;
+
+        
+    
+    
+            var marker_19ff31ac106c0143bc3f016801887f6b = L.marker(
+                [54.0886707, 12.1400211],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_4516ae3235e307aa311226f6e584203d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8289803b9458da0a1c16fe588bc4013 = $(`<div id="html_f8289803b9458da0a1c16fe588bc4013" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@University of Rostock</b><br>Location: Rostock, Germany<br>Description: Digitalization and innovation through participatory enterprise modeling<br>Year: 2023</div>`)[0];
+                popup_4516ae3235e307aa311226f6e584203d.setContent(html_f8289803b9458da0a1c16fe588bc4013);
+            
+        
+
+        marker_19ff31ac106c0143bc3f016801887f6b.bindPopup(popup_4516ae3235e307aa311226f6e584203d)
+        ;
+
+        
+    
+    
+            var marker_98c4e01fc8f77e0b47582db328ebba3e = L.marker(
+                [50.7213643, 10.4510467],
+                {}
+            ).addTo(map_8f5c59227799b157d30757371c24a844);
+        
+    
+        var popup_00be30c0d0692b5930f9b106a42c5266 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff0ffca8e97453186f8e5ff67785d8d5 = $(`<div id="html_ff0ffca8e97453186f8e5ff67785d8d5" style="width: 100.0%; height: 100.0%;"><b>OMiLAB@HS Schmalkalden</b><br>Location: Schmalkalden, Germany<br>Description: Conceptual modeling for process-oriented quality management<br>Year: 2023</div>`)[0];
+                popup_00be30c0d0692b5930f9b106a42c5266.setContent(html_ff0ffca8e97453186f8e5ff67785d8d5);
+            
+        
+
+        marker_98c4e01fc8f77e0b47582db328ebba3e.bindPopup(popup_00be30c0d0692b5930f9b106a42c5266)
+        ;
+
+        
+    
+</script>
+</html>
